@@ -2,14 +2,13 @@
 // import Collection from '@/components/shared/Collection'
 // import Search from '@/components/shared/Search';
 import { Button } from '@/components/ui/button'
-import { getAllEvents } from '@/lib/actions/events.action'
+// import { getAllEvents } from '@/lib/actions/events.action'
 // import { getAllEvents } from '@/lib/actions/event.actions';
 // import { SearchParamProps } from '@/types';
 import Image from 'next/image'
 import Link from 'next/link'
 // { searchParams }: SearchParamProps
 export default async function Home() {
-  const x = await getAllEvents()
   
 //   const page = Number(searchParams?.page) || 1;
 //   const searchText = (searchParams?.query as string) || '';
