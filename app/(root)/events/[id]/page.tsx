@@ -1,6 +1,6 @@
 import CheckoutButton from '@/components/shared/CheckoutButton';
 import Collection from '@/components/shared/Collection';
-import { getEventById, getRelatedEventsByCategory } from '@/lib/actions/event.actions'
+import { getEventById, getRelatedEventsByCategory } from '@/lib/actions/event.action';
 import { formatDateTime } from '@/lib/utils';
 import { SearchParamProps } from '@/types'
 import Image from 'next/image';
