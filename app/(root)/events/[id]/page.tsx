@@ -1,6 +1,7 @@
 import CheckoutButton from '@/components/shared/CheckoutButton';
 import Collection from '@/components/shared/Collection';
 import { getEventById, getRelatedEventsByCategory } from '@/lib/actions/event.action';
+
 import { formatDateTime } from '@/lib/utils';
 import { SearchParamProps } from '@/types'
 import Image from 'next/image';
@@ -21,9 +22,9 @@ const EventDetails = async ({ params: { id }, searchParams }: SearchParamProps) 
         <Image 
           src={event.imageUrl}
           alt="hero image"
-          width={1000}
+          width={500}
           height={1000}
-          className="h-full min-h-[300px] object-cover object-center"
+          className="h-full min-h-[300px] object-cover object-center "
         />
 
         <div className="flex w-full flex-col gap-8 p-5 md:p-10">
